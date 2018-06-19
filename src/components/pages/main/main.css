@@ -1,0 +1,24 @@
+section#portada {
+  background-image    : url('../../../assets/fondo1.jpg');
+  background-position : bottom center;
+  background-size     : cover;
+  height              : 50vh;
+}
+
+section#portada h1 {
+  background-color  : rgba(0, 0, 0, 60%);
+  color             : #ddd; 
+  font-weight       : 900;
+  height            : 40vh;
+  margin-top        : 5vh; 
+  padding           : 5vh 10vw;
+  text-align        : center;
+}
+
+section#portada h1 small {
+  display     : block;
+  font-size   : 1.2rem;
+  font-weight : 100;
+  line-height : 1.5rem;
+  margin-top  : 1rem;
+ }
