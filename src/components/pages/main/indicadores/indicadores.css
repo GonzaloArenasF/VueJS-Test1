@@ -1,0 +1,9 @@
+section#indicadores {
+  margin-top: 2rem;
+}
+
+section#indicadores h2 {
+  border-bottom   : 1px solid #41b882;
+  margin-bottom   : 1rem;
+  padding-bottom  : .5rem;
+}

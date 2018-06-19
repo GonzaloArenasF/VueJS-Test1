@@ -1,8 +1,6 @@
 
-
-
 // Definición del componente
 export default {
-  name: 'consumo',
+  name: 'Indicadores',
   components: {}
 }

@@ -2,6 +2,7 @@
 footer {
   background     : #35485d;
   color          : #829bb7;
+  margin-top     : 2rem; 
   padding        : 1rem 0;
 }
 
