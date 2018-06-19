@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import axios from 'axios'
 
 // Importación de bootsratp
 import BootstrapVue from 'bootstrap-vue'
@@ -29,17 +28,7 @@ new Vue({
 
 // App
 new Vue({
-  render: h => h(PageMain),
-  data() {
-    return {
-      currentprice: null
-    }
-  },
-  mounted () {
-    axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.currentprice = response))
-  }
+  render: h => h(PageMain)
 }).$mount('#app')
 
 // Footer
