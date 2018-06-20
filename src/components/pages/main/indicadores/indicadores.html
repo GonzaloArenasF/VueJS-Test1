@@ -2,11 +2,21 @@
 <section id="indicadores" class="row item">
   
   <div class="col-12">
-
     <h2>Indicadores</h2>
-
-    <p>{{ info }}</p>
-
+  </div>
+  <div class="col-12 text-right">
+    <p>Fecha: {{ fecha }}</p>
+  </div>
+  <div class="col-12">
+    <b-list-group>
+      <b-list-group-item v-for="indicador in indicadores">
+        <small>
+            <strong>{{ indicador.nombre }}: </strong>
+            <br />
+            {{ indicador.valor }}&nbsp;{{ indicador.unidad_medida }}
+        </small>
+      </b-list-group-item>
+    </b-list-group>
   </div>
 
 </section>
